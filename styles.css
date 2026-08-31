@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.eff_up{
+    transition: transform 0.3s ease;
+}
+
+.eff_up:hover {
+  transform: translateY(-10px);
+}
+
+body {
+    background-color: rgb(98, 128, 151);
+    height: 99.8vh;
+    width: 99.9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 40%;
+}
+
+img {
+    height: 768.5px;
+    width: 511.5px;
+    border-radius: 10px;
+    border: 3px solid;
+}
+
+.left{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.left .name_container{
+    border: 3px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.left .name_container .name{
+    font-size: 50px;
+}
+
+.icon_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 60px;
+    width: 200px;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+.a_icon{
+    text-decoration: none;
+    border: none;
+    margin: 0 2px;
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
